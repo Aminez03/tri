@@ -1,0 +1,21 @@
+PROCEDURE swap ( x,y:INTEGER)
+VAR
+    z:INTEGER;
+BEGIN
+    z:=x;
+    x:=y;
+    y:=z;
+END
+ALGORITHM tri-number
+VAR
+    tab:array_name : ARRAY_OF INTEGER;
+    i,j:INTEGER;
+BEGIN
+    FOR i FROM 0 TO tab.length-1 STEP step  DO
+        i:=j
+        WHILE (j>0  and tab[j-1]>tab[j]) DO
+            swap(tab[j-1],tab[j])
+            j:=j-1;
+        END_WHILE
+    END_FOR
+END
